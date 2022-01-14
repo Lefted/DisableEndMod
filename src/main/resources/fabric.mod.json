@@ -1,29 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "leashes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Leashes",
+  "description": "This prevents leashes from breaking",
   "authors": [
-    "Me!"
+    "Lefted"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
+  "license": "MIT Liscense",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.lefted.leashes.Leashes"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "leashes.mixins.json"
   ],
 
   "depends": {
